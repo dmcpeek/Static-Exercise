@@ -10,12 +10,12 @@ namespace StaticExercise
     {
         public static double FahrenheitToCelsius(double farenheit) 
         {
-            return ((farenheit - 32) / 1.8);
+            return ((farenheit - 32.0) * 0.5556);
         }
 
         public static double CelsiusToFarenheit(double celsius)
         {
-            return ((celsius * 9) + 32);
+            return ((celsius * 1.8) + 32.0);
         }
     }
 }
